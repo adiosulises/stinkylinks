@@ -1,0 +1,40 @@
+.entryContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    pad: 10px 0;
+    margin-bottom: 20px;
+}
+
+.provider {
+    border: none;
+    width: 120px;
+    padding: 10px 0;
+    color: white;
+    background-color: rgb(0, 89, 255);
+    border-radius: 3px;
+    text-align: center;
+    transition-duration: 0.4s;
+}
+
+.provider:hover {
+    background-color: rgb(0, 66, 189);
+}
+
+.input {
+    border: none;
+    width: 100%;
+    padding: 10px 0;
+    color: black;
+    border-radius: 3px;
+    background-color: white;
+    text-align: center;
+}
+
+.logo {
+    width: 200px;
+}
+
+.centerText {
+    text-align: center;
+}
